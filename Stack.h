@@ -1,0 +1,10 @@
+struct GraphNode;
+struct Stack* Stack_Create(int size);
+void Stack_Destroy(struct Stack* s);
+void Stack_Push(struct Stack* s,struct GraphNode* account);
+int Stack_Pop(struct Stack* s,struct GraphNode** ret_value);
+int Stack_Search(struct Stack* s,struct GraphNode* account);
+int Stack_IsEmpty(struct Stack* s);
+struct GraphNode* Stack_GetTop(struct Stack* s);
+void Stack_Print(struct Stack* s);
+int Stack_GetSize(struct Stack* s);
