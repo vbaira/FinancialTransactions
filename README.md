@@ -1,6 +1,7 @@
 # FinancialTransactions
 Implementation of a structure capable of inserting/reading/editing financial transaction records  
-Description in greek :
+
+**Description in greek :**
 
 Στην εργασία αυτή θα υλοποιήσετε μια δομή που να μπορεί να εισάγει/προσπελάσει/τροποποιεί εγγραφές για
 δοσοληψίες σε ένα τραπεζικό σύστημα και να παρέχει λειτουργίες παρακολούθησης των λογαριασμών (και του
